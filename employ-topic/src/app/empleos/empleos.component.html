@@ -1,0 +1,42 @@
+
+
+<div id="principal" class="Container"> 
+   <div class="row">
+     <div class="col-md-4"></div>
+      <h4 style="color:white;">Empleos disponibles..</h4>
+   </div>
+      
+  
+<div class="col-md-11">
+    <table id="employTable" class="table table-striped table-dark">
+        <tr>
+          <th>User</th>
+          <th>Descripcion del trabajo</th>
+          <th>Carga horaria</th>
+          <th>Dias </th>
+          <th>Ubicacion</th>         
+          <th>Liquidacion</th>
+          <th>Remuneracion</th> 
+          <th>Horas estimadas</th>
+          <th>Disponible desde</th>
+          <th>Vence</th>
+        </tr>
+    
+        <tr *ngFor="let empleo of empleosInmediatos">
+        <td>{{empleo.user}}</td>
+        <td>{{empleo.descripcionTarea}}</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>{{empleo.remuneracion}}</td>     
+        <td>{{empleo.horasEstimadas}}</td>
+        <td></td>
+        <td></td>
+        </tr>
+        
+            
+        </table>
+</div>  
+ 
+</div>

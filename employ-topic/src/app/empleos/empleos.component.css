@@ -1,0 +1,16 @@
+#principal{
+   
+  margin-left: 80px;
+}
+ 
+th{
+   color: midnightblue;
+}
+#employTable {
+  opacity:0.8;
+  transition:opacity 1s linear;
+}
+#employTable:hover {
+  opacity:1;
+  
+}
